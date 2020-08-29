@@ -1,0 +1,410 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+p , span{
+  font-family: 'Open Sans',regualr;
+  font-size: 15px;
+}
+h6{
+  font-family: poppins;
+  font-weight: 700;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+
+.navbar-dark .navbar-nav >.nav-link, .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  font: normal normal bold 20px/33px Poppins;
+  letter-spacing: 0px;
+  color: #060606;
+  opacity: 1;
+}
+.beorgo-navbar-brand{
+  display:block;
+  width: 100%;
+  height: auto;
+}
+header .beorgo-navbar{
+  background: #e6eef0 !important;
+}
+.navbar-header img {
+  height: 40px;
+  margin: 5px;
+}
+.what_do_we_do{
+background-image: url("../img/Group1703.png");
+}
+.img_warpper img{
+width: 100%;
+}
+.text_on_image{
+  justify-content:center;
+  align-items: center;
+}
+.lower_wrapper {
+  margin-top: 10%;
+}
+.upper_wrapper .img_warpper{
+  margin-top: 10%;
+}
+.p_5{
+  padding:5%;
+}
+.feature_container{
+  background: #000000;
+  /* background-image: url("../img/Group1713.png"); */
+}
+/*.image_fit{
+  width:150px;
+}*/
+.image_fit img{
+  padding:10px;
+}
+.feature_container .container .row .col-md-3 h6, .feature_container .container .row .col-md-3 p{
+color:#fff;
+}
+.image_bottom{
+  margin-top:10px;
+}
+.second_li{
+ text-align:left;
+ padding-left:10px;
+
+}
+/* testimonial slider */
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+
+}
+a:hover > .ico {
+    background-color: #666;
+}
+.what_we_do_container{
+  background-image: url("../img/Group1703.png");
+  background-position: center;
+}
+.testinmonial {
+  background-image: url("../img/Group1713.png");
+  background-position: center;
+}
+.navbar-nav .nav-item .nav-link {
+  letter-spacing: 0px;
+    color: #060606;
+    opacity: 1;
+    font-weight: 800;
+    padding: 10px 40px;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+.testinmonial .container h6 , .testinmonial .container h4{
+    color:#ffff;
+}
+.form-rounded {
+  border-radius: 1rem;
+  }
+.subcribe_row{
+  display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-subscribe{
+  background:#619E1B;
+  color:#fff;
+  border-radius:2rem;
+}
+.footer_sec{
+  background-image: url("../img/MaskGroup2.png");
+  /* background-position: center; */
+}
+.page-footer .container h5 , .page-footer .container ul li a ,.page-footer .container p, .footer-copyright ul li .fa,.page-footer .container p, .footer-copyright span{
+ color:#FFFFFF;
+}
+
+.pb-pt-10-4{
+  padding-top: 10.5rem !important;
+    padding-bottom: 3rem !important;
+}
+.footer-copyright ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding:10px;
+}
+/*bootstrap new css*/
+.px_10_py_5{
+padding: 10px 5px;
+}
+.small_heading{
+  font-weight: 500;
+    font-size: 19px;
+    color: #000000;
+}
+.orange_span{
+  color: #FF7401;
+}
+.black_span{
+  color: #000000;
+}
+.cm_span{
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Poppins';
+}
+.orange_btn{
+  background: #FF7401;
+    border: 1px solid #FF7401;
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: poppins;
+    color: #fff;
+}
+.grid_one{
+  position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+.grid_one h4, .grid_one p, .grid_two h4 ,.grid_two p{
+  color:#fff;
+}
+.grid_one h4 , .grid_two h4{
+  color:#fff;
+  font-family: 'poppins';
+  font-weight: 800;
+}
+.white_green_btn{
+  background: #fff;
+    border: 1px solid #fff;
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: poppins;
+    color: #6b9c24;
+}
+.grid_two{
+  position: absolute;
+    bottom: 22px;
+    /* left: 0px; */
+    right: 10px;
+    text-align: center;
+}
+.img_warpper{
+  position: relative;
+}
+.beorgo_span{
+   color: #FF7401 !important;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 15px;
+}
+.white_span{
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #060606;
+}
+.orannge_big{
+  padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 30px;
+}
+/*abouts us css start*/
+.beorgo-navbar ul li a{
+  color:#000000bd;
+}
+.beorgo-navbar ul li {
+  padding: 10px 20px;
+}
+.white-text h4, .white-text h6{
+  color:#fff;
+}
+.white-text h6{
+  padding-top:10px;
+}
+/* feature code */
+.p_5{
+  padding:5%;
+}
+
+.feature_container{
+  background: #000000;
+  /* background-image: url("../img/Group1713.png"); */
+}
+.image_fit{
+  width:150px;
+}
+.image_fit img{
+  padding:10px;
+}
+.feature_container .container .row .col-md-3 h6, .feature_container .container .row .col-md-3 p{
+color:#fff;
+}
+.image_bottom{
+  margin-top:10px;
+}
+.second_li{
+ text-align:left;
+ padding-left:10px;
+
+}
+/* testimonial slider */
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+
+}
+a:hover > .ico {
+    background-color: #666;
+}
+.what_we_do_container{
+  background-image: url("../img/Group1703.png");
+  background-position: center;
+}
+.testinmonial {
+  background-image: url("../img/Group1713.png");
+  background-position: center;
+}
+.navbar-nav .nav-item .nav-link {
+  letter-spacing: 0px;
+    color: #060606;
+    opacity: 1;
+    font-weight: 800;
+    padding: 10px 40px;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+.testinmonial .container h6 , .testinmonial .container h4{
+    color:#ffff;
+}
+.form-rounded {
+  border-radius: 1rem;
+  }
+.subcribe_row{
+  display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-subscribe{
+  background:#619E1B;
+  color:#fff;
+  border-radius:2rem;
+}
+.footer_sec{
+  background-image: url("../img/MaskGroup2.png");
+  /* background-position: center; */
+}
+.page-footer .container h5 , .page-footer .container ul li a ,.page-footer .container p, .footer-copyright ul li .fa,.page-footer .container p, .footer-copyright span{
+ color:#FFFFFF;
+}
+
+.pb-pt-10-4{
+  padding-top: 10.5rem !important;
+    padding-bottom: 3rem !important;
+}
+.footer-copyright ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding:10px;
+}
+
+
+/*abouts us css end*/
