@@ -14,14 +14,14 @@ h6{
   font-weight: 700;
 }
 
-@media (max-width: 740px) {
+/*@media (max-width: 740px) {
   html,
   body,
   header,
   .view {
     height: 1000px;
   }
-}
+}*/
 @media (min-width: 800px) and (max-width: 850px) {
   html,
   body,
@@ -45,7 +45,7 @@ h6{
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #424f95 !important;
+    background: #ffff !important;
   }
 }
 
@@ -405,6 +405,9 @@ a:hover > .ico {
   list-style-type: none;
   padding:10px;
 }
-
+.orange_icon{
+  font-size: 30px;
+    color: #ff7401;
+}
 
 /*abouts us css end*/
