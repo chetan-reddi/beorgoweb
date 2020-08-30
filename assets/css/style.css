@@ -367,10 +367,10 @@ a:hover > .ico {
   letter-spacing: 0px;
     color: #060606;
     opacity: 1;
-    font-weight: 800;
+    font-weight: 600;
     padding: 10px 40px;
-   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px !important;
 }
 .testinmonial .container h6 , .testinmonial .container h4{
     color:#ffff;
@@ -390,6 +390,7 @@ a:hover > .ico {
 }
 .footer_sec{
   background-image: url("../img/MaskGroup2.png");
+  background-size: cover;
   /* background-position: center; */
 }
 .page-footer .container h5 , .page-footer .container ul li a ,.page-footer .container p, .footer-copyright ul li .fa,.page-footer .container p, .footer-copyright span{
@@ -409,5 +410,58 @@ a:hover > .ico {
   font-size: 30px;
     color: #ff7401;
 }
-
+.white_icon{
+  font-size: 20px;
+  color: #ffffff;
+}
+footer p, footer ul li a,footer span{
+  font-size: 12px;
+}
+/*.green_icon{
+  color:#619E1B;
+  
+}*/
+.green_icon{
+  
+  font-size: 20px; 
+}
+.footer-copyright ul li{
+height: 50px;
+  width: 50px;
+  background:#619E1B;
+}
+button:focus {
+    outline: 1px dotted !important;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+.cmn_carsl{
+    border: 1px solid #934101;
+    font-size: 22px;
+    color: #FF7401;
+    background: #383434;
+    border: 1px solid #120000;
+}
+.carsl_right{
+    padding: 0px 25px;
+    /*border: 1px solid;*/
+    border-right: -2px;
+    border-right--radius: 2em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    
+}
+.carsl_left{
+    padding: 0px 25px;
+    border-right: -2px;
+    border-right--radius: 2em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    
+}
+.crsl_row ul li>span{
+  color:#fff;
+}
+.card .carousel-item {
+    height: 300px;
+}
 /*abouts us css end*/
