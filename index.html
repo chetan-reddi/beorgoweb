@@ -13,71 +13,100 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+<style type="text/css">
+  .masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(assets/img/Mask_Group_1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header.active {
+    background: #ffff !important;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar-nav .nav-item .nav-link.active{
+	/*color: #ffff;*/
+}
+/*.header{
+
+}*/
+.repsonive_h1{
+  	font-size: 50px;
+  }
+@media (max-width: 720px) {
+  .repsonive_h1{
+  	font-size: 30px;
+  }
+  .orannge_big{
+  	padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 20px;
+  }
+  .navbar-nav .nav-item .nav-link.active {
+    color: #000;
+}
+}
+
+</style>
 <body>
  <!-- Main navigation -->
- <header>
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top beorgo-navbar" style="padding-top:30px;">
-    <div class="container">
-      <a class="navbar-brand beorgo-navbar-brand" href="#">
-          <img src="assets/img/logo.png" style="width:100%;max-width: 150px;">
-          </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"   aria-expanded="false" aria-label="Toggle navigation">
+  <!-- Navigation -->
+<nav class="navbar header navbar-expand-lg navbar-light bg-light  fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" style="width:100%;max-width: 150px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" >
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"  href="aboutus.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"  href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"  href="contactus.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Full Page Intro -->
-  <div class="view" style="background-image: url('assets/img/Mask_Group_1.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-gradient align-items-center">
-      <!-- Content -->
-      <div class="container">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s" style="position: absolute;
-    bottom: 158px;">
-            <h1 class="h1-responsive font-weight-bold mt-sm-5" style="font-size:60px">AGRICULTURE IS THE SCIENCE PLANTS</h1>
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-6 text-center">
+        <!-- <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+        <p class="lead">A great starter layout for a landing page</p> -->
+        <h1 class="h1-responsive font-weight-bold mt-sm-5 repsonive_h1">AGRICULTURE IS THE SCIENCE PLANTS</h1>
             <!-- <hr class="hr-light"> -->
             <h6 class="mb-4 orange_span">You are one step from making real money</h6>
             <a class="btn  orange_btn orannge_big">DISCOVER MORE</a>
           </div>
-          <!--Grid column-->
-          <!--Grid column-->
-          <!-- <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
-          </div> -->
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
       </div>
-      <!-- Content -->
     </div>
-    <!-- Mask & flexbox options-->
   </div>
-
-  <!-- Full Page Intro -->
 </header>
-<!-- Main navigation -->
+
+<!-- Page Content -->
+<!-- <section class="py-5">
+  <div class="container">
+    <h2 class="font-weight-light">Page Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+  </div>
+</section> -->
 <!--Main Layout-->
 <main>
   <div class="container text-center p_5 ">
@@ -483,4 +512,16 @@
 
 
 </body>
+<script type="text/javascript">
+	$(window).on("scroll", function() {
+    if($(window).scrollTop() > 200) {
+        $(".header").addClass("active");
+        $(".navbar-nav .nav-item .nav-link").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+       $(".navbar-nav .nav-item .nav-link").removeClass("active");
+    }
+});
+</script>
 </html>
